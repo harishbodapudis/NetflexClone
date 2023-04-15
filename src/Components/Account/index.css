@@ -1,0 +1,91 @@
+.account-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+.account-page-box {
+  width: 80%;
+  margin: auto;
+}
+.account-name-password-box {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #cbd5e1;
+  border-bottom: 1px solid #cbd5e1;
+}
+.name-password-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.membership-title {
+  color: #94a3b8;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  width: 100px;
+}
+
+.membership-value-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.account-membership-type-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #cbd5e1;
+  padding: 10px 0;
+}
+
+.membership-value {
+  margin-left: 0px;
+}
+
+.ultra-box {
+  margin-left: 5px;
+  border: 1px solid black;
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 2px;
+}
+
+.account-logout-box {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logout-btn {
+  background-color: #e50914;
+  color: #ffffff;
+  border: 0px;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.membership-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+.name-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.password {
+  color: #64748b;
+}
+.password-val {
+  margin-left: 5px;
+}

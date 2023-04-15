@@ -1,0 +1,40 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://res.cloudinary.com/dxnnsbh2u/image/upload/v1680759876/notFoundPage_pzdxvp.png');
+}
+
+.heading {
+  color: #ffffff;
+  font-family: roboto;
+  font-weight: 700;
+  font-size: 55px;
+  margin-bottom: 0px;
+  letter-spacing: 1px;
+}
+.para {
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 14px;
+  width: 355px;
+  text-align: center;
+  margin: 20px 0;
+  font-weight: 500;
+  line-height: 25px;
+}
+.link-text {
+  color: #000000;
+  text-decoration: none;
+}
+
+.link-btn {
+  border-width: 0px;
+  background-color: #ffffff;
+  padding: 10px 10px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 2px;
+}
